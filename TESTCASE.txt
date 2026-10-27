@@ -1,0 +1,7 @@
+1. Park Motorcycle → RegularSlot → Success
+2. Park EV with charging → EVSlot → +3000 fee
+3. VIP full → ReservationException
+4. Unpark invalid ticket → InvalidTicketException
+5. Park when full → NoAvailableSlotException
+6. Park > 24 hours → 10% discount
+7. VIP surcharge applied
